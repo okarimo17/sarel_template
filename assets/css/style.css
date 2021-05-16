@@ -3693,3 +3693,39 @@ a.add_to_cart_button:hover,
 		max-width: 100%;
 	}
 }
+
+
+/* My Css */
+.text-white .breadcrumb-item > a, .text-white .breadcrumb-item.active, .media-icon-white a, .nav-white .navbar-nav .nav-link {
+    color: #f3f3f3;
+}
+/* Portfoilo hover Grid */
+.portfolio-classic .bg-image-holder{
+	position: relative;
+}
+
+.portfolio-classic .bg-image-holder .transation {
+	z-index: 1;
+	position: relative;
+}
+.portfolio-classic .bg-image-holder .gallery_imgs  {
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	z-index:2;
+}
+.portfolio-classic .bg-image-holder .gallery_imgs img {
+	animation: .1s fade-in;
+}
+@keyframes fade-in {
+	0%   { opacity: 0; }
+	100% { opacity: 1; }
+}
+  
+@keyframes spin {
+	to { transform: rotate(360deg); }
+}
+  
+  
