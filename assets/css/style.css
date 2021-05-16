@@ -3768,3 +3768,13 @@ a.add_to_cart_button:hover,
 	padding:0!important;
 	padding-top: 120px!important;
 }
+.products-page .full-row.bg-light {
+	padding:0!important;
+	padding-top: 96px!important;
+}
+
+.products-page .portfolio-img img {
+	height: 190px;
+	width: 100%;
+}
+
