@@ -3754,7 +3754,7 @@ a.add_to_cart_button:hover,
 }
 /* contact page*/
 .contact-page .container-fluid.data-holder {
-	padding: 20px 0;
+	padding-top: 100px;
 }
 .contact-page .content-modal{
 	background: #fff;
