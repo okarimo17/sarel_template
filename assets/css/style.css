@@ -3752,3 +3752,11 @@ a.add_to_cart_button:hover,
 .about-page .full-section .slides-back .slide-item img  {
 	object-fit: cover;
 }
+/* contact page*/
+.contact-page .container-fluid.data-holder {
+	padding: 20px 0;
+}
+.contact-page .content-modal{
+	background: #fff;
+	padding: 20px;
+}
