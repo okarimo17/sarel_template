@@ -376,6 +376,7 @@
 			smartSpeed: 500,
 			autoplayTimeout: 2000,
 			autoplay: true,
+			autoplayHoverPause:true,
 			responsive:{
 				0:{
 					items:1
