@@ -3760,3 +3760,11 @@ a.add_to_cart_button:hover,
 	background: #fff;
 	padding: 20px;
 }
+
+.about-page .full-row ul li {
+	color:#7c7c7c;
+}
+.activity-page .full-row.bg-light {
+	padding:0!important;
+	padding-top: 120px!important;
+}
