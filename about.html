@@ -28,7 +28,7 @@
 	<link rel="stylesheet" href="assets/css/category/default.css">
 </head>
 
-<body>
+<body class="about-page">
 
 	<!-- Header Section Start -->
 	<header class="default-header bg-white nav-on-top">
@@ -138,7 +138,19 @@
 	</div>
 	<!-- breadcrumb -->
 
-	<div class="full-row sm-bg-img-none bg-light" style="background-image: url(assets/images/background/bg-10.png); background-position: center center; background-size: cover">
+	<div class="full-row sm-bg-img-none bg-light full-section" style="background-position: center center; background-size: cover">
+		<div class="slides-back slides-carousel owl-carousel">
+			<div class="slide-item item">
+				<img src="assets/images/background/bg-10.png" alt="item" class="img-fluid">
+			</div>
+			<div class="slide-item item">
+				<img src="assets/images/background/bg-8.png" alt="item" class="img-fluid">
+			</div>
+			<div class="slide-item item">
+				<img src="assets/images/background/bg-11.png" alt="item" class="img-fluid">
+			</div>
+		</div>
+		
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-6">
@@ -350,6 +362,25 @@
 <script src="assets/js/wow.js"></script>
 <script src="assets/js/mixitup.min.js"></script>
 <script src="assets/js/custom.js"></script>
+<script>
+		$('.slides-carousel').owlCarousel({
+			loop:true,
+			margin:0,
+			nav:false,
+			dots: false,
+			smartSpeed: 500,
+			autoplay: true,
+			autoplayTimeout: 5000,
+			items:1,
+			singleItem: true,
+			animateIn: 'fadeIn', 
+			animateOut: 'fadeOut',
+			mouseDrag: false,
+			touchDrag: false
+
+
+		});    	
+</script>
 
 </body>
 </html>

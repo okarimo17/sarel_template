@@ -3728,4 +3728,27 @@ a.add_to_cart_button:hover,
 	to { transform: rotate(360deg); }
 }
   
-  
+/* About Page Full */
+.about-page .full-section{
+	position: relative;
+}
+.about-page .full-section .slides-back{
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+    overflow: hidden;
+	z-index: 0;
+}
+.about-page .full-section .slides-back .slide-item,
+.about-page .full-section .slides-back .slide-item img ,
+.about-page .owl-stage-outer,
+.about-page .owl-stage,
+.about-page .owl-item {
+	height: 100%;
+}
+.about-page .full-section .slides-back .slide-item,
+.about-page .full-section .slides-back .slide-item img  {
+	object-fit: cover;
+}

@@ -375,7 +375,7 @@
 			dots: true,
 			smartSpeed: 500,
 			autoplayTimeout: 2000,
-			autoplay: false,
+			autoplay: true,
 			responsive:{
 				0:{
 					items:1
