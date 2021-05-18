@@ -3778,3 +3778,124 @@ a.add_to_cart_button:hover,
 	width: 100%;
 }
 
+
+/*  menu-holder */
+
+.menu-holder {
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	background: #090212;
+    z-index: 1000;
+	padding-top:0 ;
+	color: #efefef;
+}
+
+.menu-holder.animated {
+	transition: .4s transform ;
+}
+.menu-holder.closed{
+	transform: translateY(-100%);
+}
+
+
+.menu-holder .item {
+	
+	/* display: flex; */
+    flex: 1;
+    height: 100vh;
+    /* justify-content: center;
+    align-items: center; */
+	background-size: cover;
+	background-repeat: no-repeat;
+    position: relative;
+	display: block;
+}
+.menu-holder .menu-carousel  button {
+	position: absolute;
+	background: #efefef!important;
+	top: 40%;
+	width: 50px;
+    height: 50px;
+	font-size: 24px;
+    line-height: 50px;
+}
+.menu-holder .menu-carousel  button span {
+	color: #333;
+	font-size: 30px;
+    /* line-height: 50px; */
+}
+
+.menu-holder .menu-carousel  .item_bg {
+	position: absolute;
+    height: 100%;
+	z-index: 1;
+	overflow: hidden;
+}
+.menu-holder .menu-carousel  .item_bg img {
+	display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+	transition: .5s ;
+}
+
+.menu-holder .menu-carousel  .item_content {
+	position: absolute;
+	z-index: 10;
+	height: 100%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #040214c2;
+	cursor: pointer;
+	transition: .2s background;
+}
+.menu-holder .menu-carousel  .item_content h3 {
+	transition: .2s ;
+}
+.menu-holder .menu-carousel  .item:hover .item_content {
+	background: #04021473;
+}
+
+.menu-holder .menu-carousel  .item_content h3 {
+	color: #efefef;
+}
+.menu-holder .menu-carousel  .item:hover .item_content  h3{
+    transform: translateY(-15px);
+}
+.menu-holder .menu-carousel .item:hover .item_bg img {
+	transform: scale(1.1);
+}
+.menu-holder .menu-holder_inner {
+	position: relative;
+}
+.menu-holder .menu-holder_inner .menu-close_btn,
+.menu-holder .menu-holder_inner .menu-open_btn{
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    height: 50px;
+    width: 50px;
+    z-index: 1111;
+    background: #262c358a;
+    line-height: 50px;
+    text-align: center;
+	user-select: none;
+	cursor: pointer;
+	border-radius: 4px;
+	transition: .25s background;
+}
+.menu-holder .menu-holder_inner .menu-close_btn:hover,
+.menu-holder .menu-holder_inner .menu-open_btn:hover{
+    background: #262c35cc;
+}
+
+.menu-open_btn.toggle-button{
+	font-size: 26px;
+    color: #efefef;
+	cursor: pointer;
+}
