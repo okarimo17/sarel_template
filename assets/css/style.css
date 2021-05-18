@@ -3898,4 +3898,13 @@ a.add_to_cart_button:hover,
 	font-size: 26px;
     color: #efefef;
 	cursor: pointer;
+	width: 50px;
+    z-index: 1111;
+    background: #262c358a;
+    line-height: 50px;
+    text-align: center;
+    user-select: none;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: .25s background;
 }

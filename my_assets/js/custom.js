@@ -41,3 +41,6 @@ function mainMenuService(){
 		menu_holder.addClass('animated');
 	},700)
 }
+
+
+mainMenuService()
