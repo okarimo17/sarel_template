@@ -3780,7 +3780,7 @@ a.add_to_cart_button:hover,
 }
 
 .products-page .portfolio-img img {
-	height: 190px;
+	/* height: 190px; */
 	width: 100%;
 }
 
