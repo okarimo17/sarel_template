@@ -755,12 +755,18 @@ a.text-dark:focus {
 	left: 65px;
 	background: var(--theme-gray-color)
 }
+
 .nav-on-banner {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     z-index: 999;
+    /* background: #00063191; */
+}
+
+.homepage .nav-on-banner{
+    background: transparent;
 }
 .nav-on-top {
     animation-fill-mode: both;
@@ -3766,11 +3772,11 @@ a.add_to_cart_button:hover,
 }
 .activity-page .full-row.bg-light {
 	padding:0!important;
-	padding-top: 120px!important;
+	padding-top: 160px!important;
 }
 .products-page .full-row.bg-light {
 	padding:0!important;
-	padding-top: 96px!important;
+	padding-top: 130px!important;
 }
 
 .products-page .portfolio-img img {
@@ -3907,4 +3913,8 @@ a.add_to_cart_button:hover,
     cursor: pointer;
     border-radius: 4px;
     transition: .25s background;
+}
+
+img.nav-logo {
+    height: 110px;
 }
