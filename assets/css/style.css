@@ -3918,3 +3918,10 @@ a.add_to_cart_button:hover,
 img.nav-logo {
     height: 110px;
 }
+
+
+@media screen and (max-width: 991.98px){
+.nav-on-top, .nav-on-banner {
+    position: fixed !important;
+}
+}
