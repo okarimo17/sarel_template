@@ -3939,7 +3939,9 @@ img.nav-logo {
 		transform: translateY(-110px);
 	}
 }
-	
+		/* #slider .ls-wrapper {
+			top: 50%!important;
+		} */
 /* body {
 	overflow: hidden;
 }
