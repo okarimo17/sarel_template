@@ -3739,7 +3739,7 @@ a.add_to_cart_button:hover,
 	position: relative;
 }
 .about-page .full-section .slides-back{
-	position: absolute;
+	position: fixed;
 	top: 0;
 	right: 0;
 	left: 0;
@@ -3788,7 +3788,7 @@ a.add_to_cart_button:hover,
 /*  menu-holder */
 
 .menu-holder {
-	position: absolute;
+	position: fixed;
 	top: 0;
 	right: 0;
 	left: 0;
@@ -3926,9 +3926,6 @@ img.nav-logo {
 }
 }
 
-body {
-	overflow: hidden;
-}
 
 #slider .ls-inner p img.img-fluid{
 	width: 320px!important;
@@ -3943,3 +3940,30 @@ body {
 	}
 }
 	
+/* body {
+	overflow: hidden;
+}
+@media screen and (max-width: 500px){
+	body {
+		overflow: auto;
+	}
+} */
+
+@media screen and (max-width: 991.98px){
+.full-header, .fixed-secondary, .transparent-header, .transparent-header-modern {
+    background-color: transparent;
+}
+}
+
+.about-page .overflow-hidden,
+.service-page .overflow-hidden {
+    overflow: auto!important;
+}
+
+@media screen and (max-width: 660px){
+	#slider .ls-inner p img.img-fluid {
+		width: 220px!important;
+		height: 220px!important;
+		transform: translateY(-52px);
+	}
+}
