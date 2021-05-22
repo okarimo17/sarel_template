@@ -3794,7 +3794,7 @@ a.add_to_cart_button:hover,
 	left: 0;
 	bottom: 0;
 	background: #090212;
-    z-index: 1000;
+    z-index: 99992;
 	padding-top:0 ;
 	color: #efefef;
 }
@@ -3966,4 +3966,12 @@ img.nav-logo {
 		height: 220px!important;
 		transform: translateY(-52px);
 	}
+}
+
+.nav-on-banner.fixed-top .black-logo {
+	display: none;
+}
+
+.nav-on-banner.fixed-top .w-logo {
+	display:block!important
 }
