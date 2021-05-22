@@ -3925,3 +3925,21 @@ img.nav-logo {
     position: fixed !important;
 }
 }
+
+body {
+	overflow: hidden;
+}
+
+#slider .ls-inner p img.img-fluid{
+	width: 320px!important;
+    height: 320px!important;
+}
+
+@media screen and (max-width: 660px){
+	#slider .ls-inner p img.img-fluid {
+		width: 270px!important;
+		height: 270px!important;
+		transform: translateY(-110px);
+	}
+}
+	
